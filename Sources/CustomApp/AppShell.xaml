@@ -13,11 +13,12 @@
         <views:ShellFlyoutHeader />
     </Shell.FlyoutHeader>
 
-    <FlyoutItem Title="Calculator" Icon="user.png" Route="calculator">
+    <FlyoutItem Title="Calculator" Icon="calculator.png" Route="calculator">
         <ShellContent ContentTemplate="{DataTemplate pages:CalculatorPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Users" Icon="user.png" Route="users">
         <ShellContent ContentTemplate="{DataTemplate pages:UsersPage}" />
+        
     </FlyoutItem>
     <FlyoutItem Title="Issues" Icon="issue.png" Route="issues">
         <ShellContent ContentTemplate="{DataTemplate pages:IssuesPage}" />

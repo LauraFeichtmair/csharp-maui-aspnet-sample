@@ -6,17 +6,5 @@
 
         private CalculatorPageModel() { }
 
-        private string? _number1;
-        private string? _number2;
-
-        private string? _operation = "+"; // + - * /
-
-        public string? Operation
-        {
-            set => SetProperty(ref _operation, value);
-            get => _operation;
-        }
-
-        // TODO!!
     }
 }
